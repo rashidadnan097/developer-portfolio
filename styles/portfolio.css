@@ -1,11 +1,15 @@
 body{
     font-family: 'Ysabeau SC', sans-serif;
 }
- 
+ .htag{
+    font-size: 30px;
+    font-weight: 40px;
+ }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .nav-un{
     color: orangered;
@@ -30,4 +34,16 @@ nav a{
     border: none;
     font-weight: 28px;
     padding: 15px 20px;
+}
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    
+}
+.banner .profile-pic{
+    width: 500px;
 }
